@@ -201,7 +201,6 @@ export default function Experience() {
             >
               <button
                 className="bg-btn-color-3 hover:bg-btn-color-3-hover px-4 py-2 font-custom2 rounded-md shadow-light-shadow"
-                onClick={handleDownload}
               >
                 Certificate
               </button>
