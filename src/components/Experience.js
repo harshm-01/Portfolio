@@ -196,7 +196,7 @@ export default function Experience() {
           </div>
           <div className="w-full mt-10 text-white">
             <a
-              href="/documents/certificate.pdf"
+              href={`${process.env.PUBLIC_URL}/documents/certificate.pdf`}
               download="Internship_BhuAmrit.pdf"
             >
               <button
