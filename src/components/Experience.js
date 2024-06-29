@@ -196,7 +196,7 @@ export default function Experience() {
           </div>
           <div className="w-full mt-10 text-white">
             <a
-              href="/Internship_BhuAmrit.pdf"
+              href="/documents/certificate.pdf"
               download="Internship_BhuAmrit.pdf"
             >
               <button

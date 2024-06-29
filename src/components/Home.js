@@ -36,7 +36,7 @@ export default function Home() {
             <img src={Myhome} alt="" />
           </div>
           <div className="w-96 flex items-center justify-around notepad:pt-5 mobile:w-full">
-            <a href="/Resume_Harsh-Maurya.pdf" download="Resume_Harsh-Maurya">
+            <a href="/documents/resume.pdf" download="Resume_Harsh-Maurya">
               <button className="bg-btn-color-1 hover:bg-btn-color-1-hover text-white text-base font-custom2 px-7 py-1.5 rounded-md shadow-light-shadow">
                 Resume
               </button>
