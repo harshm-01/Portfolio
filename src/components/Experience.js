@@ -18,15 +18,6 @@ import bhuAmrit8 from "../assets/images/carousel/bhuAmrit/8.svg";
 export default function Experience() {
   const [show, setShow] = useState([false, true, false]);
 
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/Internship_BhuAmrit.pdf";
-    link.download = "Internship_BhuAmrit.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   useEffect(() => {
     const slides = document.querySelectorAll(".slider");
     let counter = 0;
@@ -204,9 +195,17 @@ export default function Experience() {
             </p>
           </div>
           <div className="w-full mt-10 text-white">
-            <button className="bg-btn-color-3 hover:bg-btn-color-3-hover px-4 py-2 font-custom2 rounded-md shadow-light-shadow" onClick={handleDownload}>
-              Certificate
-            </button>
+            <a
+              href="/Internship_BhuAmrit.pdf"
+              download="Internship_BhuAmrit.pdf"
+            >
+              <button
+                className="bg-btn-color-3 hover:bg-btn-color-3-hover px-4 py-2 font-custom2 rounded-md shadow-light-shadow"
+                onClick={handleDownload}
+              >
+                Certificate
+              </button>
+            </a>
           </div>
         </div>
         <div

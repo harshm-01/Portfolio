@@ -6,15 +6,6 @@ import Typed from "typed.js";
 export default function Home() {
   const element = useRef(null);
 
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/Resume_Harsh-Maurya.pdf";
-    link.download = "Resume_Harsh-Maurya.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   useEffect(() => {
     const typed = new Typed(element.current, {
       strings: [
@@ -45,9 +36,11 @@ export default function Home() {
             <img src={Myhome} alt="" />
           </div>
           <div className="w-96 flex items-center justify-around notepad:pt-5 mobile:w-full">
-            <button className="bg-btn-color-1 hover:bg-btn-color-1-hover text-white text-base font-custom2 px-7 py-1.5 rounded-md shadow-light-shadow" onClick={handleDownload}>
-              Resume
-            </button>
+            <a href="/Resume_Harsh-Maurya.pdf" download="Resume_Harsh-Maurya">
+              <button className="bg-btn-color-1 hover:bg-btn-color-1-hover text-white text-base font-custom2 px-7 py-1.5 rounded-md shadow-light-shadow">
+                Resume
+              </button>
+            </a>
             <Link to="contact" smooth={true} duration={800}>
               <button className="bg-btn-color-2 hover:bg-btn-color-2-hover text-white  text-base font-custom2 px-7 py-1.5 rounded-md shadow-light-shadow">
                 Hire Me
