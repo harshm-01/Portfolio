@@ -65,7 +65,7 @@ export default function About() {
           </span>
           <span className="flex font-custom2">
             Email:&nbsp;
-            <p className="font-custom7 tablet:text-xs flex items-center">harshmaurya99hm@gmail.com</p>
+            <p className="font-custom7 tablet:text-xs flex items-center">harshm99hm@gmail.com</p>
           </span>
         </div>
         <div className="w-[26rem] h-5/6 bg-light-bg rounded-2xl px-8 py-8 flex flex-col items-start justify-around text-lg shadow-dark-shadow mobile:w-72 mobile:px-4 mobile:py-3 mobile:h-full mobile:text-base">

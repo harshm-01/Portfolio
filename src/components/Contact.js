@@ -78,8 +78,8 @@ export default function Contact() {
               </div>
               <div className="text-white flex flex-col grow">
                 <p className="text-base font-custom1 ">Primary Email</p>
-                <p className="text-sm tablet:text-xs">
-                  harshmaurya99hm@gmail.com
+                <p className="text-sm">
+                  harshm99hm@gmail.com
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ export default function Contact() {
               </div>
               <div className="text-white flex flex-col grow">
                 <p className="text-base font-custom1 ">Personal Email</p>
-                <p className="text-sm">harshm99hm@gmail.com</p>
+                <p className="text-sm  tablet:text-xs">harshmaurya99hm@gmail.com</p>
               </div>
             </div>
           </div>
